@@ -9,7 +9,7 @@ describe("triangle", function() {
   });
 
   it("is isosceles if it is a triangle and two sides are the exact same length." , function() {
-    expect(triangle(6, 6, 8)).to.equal("isosceles");
+    expect(triangle(10, 10, 15)).to.equal("isosceles");
   });
 
   it("is scalene if no sides of the triangle are equal", function() {

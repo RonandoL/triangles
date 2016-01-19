@@ -10,6 +10,42 @@
 </head>
 
   <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>What triangle is it??</h1>
+        <h3>Have you ever looked at a triangle and wondered, "what kind of triangle even is this?" Well, just enter the length of the sides of the triangle in question, hit the submit button, and have your ignorace wiped away!! Knowledge is power!</h3>
+      </div>
+    </div> <!-- /container -->
+
+    <div class="container">
+      <form id="lengths">
+        <div class="form-group">
+        <label>Length of side A</label>
+          <input type="number" class="lengthA" required>
+        <label>Length of Side B</label>
+          <input type="number" class="lengthB" required>
+        <label>Length of Side C</label>
+          <input type="number" class="lengthC" required>
+        </div>
+
+        <button class="btn btn-lg btn-default" type="submit" id="submit">Find Your Answer!</button>
+      </form>
+    </div>  <!-- /container -->
+
+    <div class="container" id="triangle">
+      <h4><span class="lengthA"></span>, <span class="lengthB"></span>, and <span class="lengthC"></span> makes <span class="answer"></span> triangle!</h4>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
 
   </body>
 </html>
